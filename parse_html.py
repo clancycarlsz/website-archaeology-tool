@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 # Read sample HTML file
-with open('sample/sample.html', 'r', encoding='utf-8') as file:
+with open('samples/sample.html', 'r') as file:
     html_content = file.read()
 
 # Parse HTML and count tags
